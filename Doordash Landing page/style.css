@@ -90,7 +90,7 @@ right:0%;
     padding: 8px 8px 8px 20px;
     height:40px;
     width:380px;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     border-radius:50px;
 }
@@ -101,6 +101,11 @@ right:0%;
     font-weight:700;
     margin-bottom:15px;
 }
+
+.textfield-div{
+margin-right:111px;
+padding-left:8px;
+}
 .input-btn{
     background-color:#eb1700;
     color:#ffffff;
@@ -108,4 +113,73 @@ right:0%;
     border-radius:20px;
     height:40px;
     width:40px;
+    cursor:pointer;
+}
+.signin-btn-for-saved-address-div{
+    position:relative;
+}
+.signin-btn-for-saved-address{
+    border:none;
+    cursor:pointer;
+    background-color:#ffffff;
+    box-shadow:inset 0 0 0 var(--usage-border-width-default) var(--usage-color-transparent-default), var(--usage-elevation-2);
+    color:#191919;
+    text-align:center;
+    width:215px;
+    height:32px;
+    font-weight:800;
+    border-radius:50px;
+    margin-top:15px;
+}
+
+.main-card-div{
+ display:flex;
+ justify-content:center;
+ margin-top:96px;
+}
+
+
+.card1-div{
+    width:360px;
+    height:420px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.img-div{
+    height: 154px;
+    width: 264px;
+    margin-right:64px;
+    text-align:center;
+}
+.card-img{
+    width:154px;
+
+}
+.card-sub-body{
+    text-align:center;
+}
+
+h2{
+width:250px;
+
+color:#191919;
+font-size:32px;
+margin-bottom:0px;
+}
+
+h3{
+    width: 259px;
+  
+    color:#191919;
+        font-size:18px;
+    font-weight:500;
+}
+
+.link{
+    font-size:18px;
+    color:#EB1700;
+    font-weight:700;
 }
