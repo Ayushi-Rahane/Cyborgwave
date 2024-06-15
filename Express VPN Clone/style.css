@@ -1,6 +1,9 @@
 *{
     font-family:Arial, Helvetica, sans-serif
 }
+svg{
+    fill:currentColor;
+}
 body, html{
     margin:0px;
     padding:0px;
@@ -11,6 +14,13 @@ body, html{
 .desktop-bg{
     width:100vw;
     height:680px;
+
+}
+.desktop-img2{
+    position:absolute;
+    top: 419px;
+    left: 500px;
+
 }
 .logo-img{
     width:260px;
@@ -18,7 +28,6 @@ body, html{
 }
 .nav-bar-div {
     position:absolute;
-    width: 100vw;
     height: 100px;
     display: flex;
     align-items: center;
@@ -75,4 +84,61 @@ color:#0F866C;
 }
 .nav-list svg {
     vertical-align: middle;
+}
+.main-txt{
+    position:absolute;
+    top: 70px;
+    left: 227px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.col-headline-div h1{
+    font-size:89px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#001D2F;
+    height:62px;
+}
+.col-sub-heading-div h3{
+
+    color:#001D2F;
+    font-size:24px;
+    font-weight:700;
+    margin:0px 0px 30px;
+    padding:0px;
+    
+}
+
+.col-get-expressvpn-btn a{
+    width:210px;
+    height:40px;
+    font-weight:700;
+    font-size:20px;
+    color:white;
+    background-color:#0F866C;
+    border: 2px solid #0F866C;
+    padding:8px 30px;
+    border-radius:50px;
+    display:inline-flex;
+    align-items:center;
+    vertical-align:middle;
+    transition:background-color 0.4s, color 0.4s, border-color 0.4s;
+}
+
+.col-get-expressvpn-btn a:hover{
+
+    background-color: #d4e300;
+    border-color: #d4e300;
+    color: #001d2f;
+    cursor:pointer;
+}
+.col-get-expressvpn-btn a svg{
+    width:16px;
+    margin-left:12px;
+    fill:currentcolor;
+}
+.col-text h6{
+    font-weight:600;
+    color:#001D2F;
 }
