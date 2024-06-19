@@ -142,3 +142,124 @@ color:#0F866C;
     font-weight:600;
     color:#001D2F;
 }
+
+.section-2-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:411px;
+    gap:170px;
+}
+.text-section-2{
+    width:460px;
+}
+.text-section-2 h2{
+    color:#001D2F;
+    font-size:32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:550;
+}
+.text-section-2 .txt{
+line-height:28px;
+color:#001D2F;
+font-size:16px;
+}
+.section-2-img{
+    width:370px;
+}
+
+.section-3-div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#001D2F;
+    background-color:#F9F8F2;
+    height:1080px;
+    margin-bottom:80px;
+}
+.sec-3-upper-div h1, .sub-sec-4-div1 h1{
+color:#001D2F;
+font-size:46px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin-top:0px;
+font-weight:600;
+}
+.sec-3-img-div-1{
+    position:relative;
+}
+.sec-3-img1{
+    width:570px;
+    height:320px;
+    border-radius:50px;
+}
+.yt-icon{
+    position:absolute;
+    top: 43%;
+    left: 46%;
+}
+.yt-icon svg:hover{
+fill:red;
+}
+.row-div{
+    display:flex;
+    justify-content:center;
+    gap:173px;
+    width:1200px;
+    height:370px;
+    margin-top:80px;
+}
+.col1-div{
+    width:450px;
+}
+.col1-txt{
+    color:#001D2F;
+    font-size:16px;
+    line-height:29px;
+}
+.sec-3-img2{
+    width:370px;
+}
+.sub-sec-4-div2{
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content:center;
+    gap:30px;
+}
+.sec-4-card-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:352px;
+}
+.card-img{
+    width:340px;
+    padding-top:30px;
+}
+.card-headline h4{
+    color:#001D2F;
+    font-size:24px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+   }
+   /*https://xvdrop.imgix.net/map-55268416cd7ee847a41939f31605e2fa9977e841.png*/
+
+.card-txt{
+    color:#001D2F;
+    font-size:16px;
+    text-align:center;
+    line-height:28px;
+    margin:0px;
+}   
+
+.flag-card{
+    width:100px;
+    height:140px;
+}
+.flag-card img{
+    width:88px;
+    border-radius:40px;     
+}
