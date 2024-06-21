@@ -178,7 +178,7 @@ font-size:16px;
     height:1080px;
     margin-bottom:80px;
 }
-.sec-3-upper-div h1, .sub-sec-4-div1 h1{
+.sec-3-upper-div h1, .sub-sec-4-div1 h1, .globe-sec-headline h2{
 color:#001D2F;
 font-size:46px;
 font-family:Georgia, 'Times New Roman', Times, serif;
@@ -245,7 +245,7 @@ fill:red;
     margin-top:20px;
     margin-bottom:20px;
    }
-   /*https://xvdrop.imgix.net/map-55268416cd7ee847a41939f31605e2fa9977e841.png*/
+   
 
 .card-txt{
     color:#001D2F;
@@ -255,11 +255,84 @@ fill:red;
     margin:0px;
 }   
 
+.globe-sec {
+    background-image:url(https://xvdrop.imgix.net/map-55268416cd7ee847a41939f31605e2fa9977e841.png);
+    width: 100vw;
+    height: 514px;
+    margin-top: 168px;
+    margin-bottom: 145px;
+    color: #001D2F;
+    background-color: #fdf3f4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.flag-card-main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
 .flag-card{
     width:100px;
     height:140px;
+    text-align:center;
+    transition: all .5s ease;
+    margin-top:15px;
+}
+.flag-card:hover{
+    margin-top:10px;
+}
+.flag-card:hover .flag-name{
+   visibility:visible;
+   
+}
+
+.flag-card:hover img
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 .flag-card img{
-    width:88px;
-    border-radius:40px;     
+    width:80px;
+    height:63px;
+    border-radius:12px;
+  
+}
+
+
+.flag-name{
+    color:#001d2f;
+    font-size:12px;
+    text-align:center;
+    font-weight:600;
+    visibility:hidden;
+}
+.globe-sec-btn{
+
+justify-content:center;
+align-items:center;
+ width:229px;
+ height:24px;
+ font-size:20px;   
+ border: 2px solid #0F866C;
+ color:#0F866C;
+ padding:16px 35px;
+ border-radius:50px;
+ display:inline-flex;
+ align-items:center;
+ vertical-align:middle;
+ transition:background-color 0.4s, color 0.4s, border-color 0.4s;
+}
+.globe-sec-btn:hover{
+    background-color: #d4e300;
+    border-color: #d4e300;
+    color: #001d2f;
+    cursor:pointer;
 }
